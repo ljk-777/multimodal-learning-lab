@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Datasets and model checkpoints
+data/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
