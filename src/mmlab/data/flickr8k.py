@@ -1,7 +1,7 @@
 from datasets import load_dataset
 from torch.utils.data import Dataset
 
-class Flick8kDataset(Dataset):
+class Flickr8kDataset(Dataset):
     def __init__(
             self,
             split="train",

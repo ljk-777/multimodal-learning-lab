@@ -1,8 +1,8 @@
 from torch.utils.data import DataLoader
-from mmlab.data.flickr8k import Flick8kDataset, flickr8k_clooate_fn
+from mmlab.data.flickr8k import Flickr8kDataset, flickr8k_clooate_fn
 
 def main():
-    dataset = Flick8kDataset(split="train")
+    dataset = Flickr8kDataset(split="train")
     print("Dataset length:", len(dataset))
     sample=dataset[0]
     print("\n--- Single Sample ---")
