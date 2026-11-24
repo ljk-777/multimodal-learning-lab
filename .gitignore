@@ -13,7 +13,7 @@ __pycache__/
 .env.*
 
 # Datasets and model checkpoints
-data/
+/data/
 outputs/
 checkpoints/
 *.pth
